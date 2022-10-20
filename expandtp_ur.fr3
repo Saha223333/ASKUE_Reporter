@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" Version="3.16" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="41611,673540787" ReportOptions.Description.Text="" ReportOptions.LastChange="41998,3507106481" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" PropData="044C65667403D90103546F7003840008446174617365747301010C3A00000020446174615365743D226672784442457870616E6454505F55522220446174615365744E616D653D226672784442457870616E6454505F5552220000095661726961626C65730100055374796C650100">
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="120,94496" Left="0" Top="18,89765" Width="793,7013">
+      <TfrxMemoView Name="Memo2" Left="11,3385826771654" Top="30,2362204724409" Width="506,45702" Height="68,03154" Font.Charset="1" Font.Color="0" Font.Height="-37" Font.Name="Arial" Font.Style="4" ParentFont="False" Text="Расход по ТП в разрезе ЮЛ"/>
+      <TfrxMemoView Name="Memo10" Left="597,16574" Top="22,67718" Width="185,19697" Height="18,89765" Frame.Typ="8" Text="Дата печати [Date]"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="18,89765" Left="0" Top="241,88992" Width="793,7013" ColumnWidth="0" ColumnGap="0" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" RowCount="0">
+      <TfrxMemoView Name="Memo3" Left="52,91342" Top="0" Width="192,75603" Height="18,89765" DataField="NAME" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Frame.Typ="15" Text="[frxDBExpandTP_UR.&#34;NAME&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="559,37044" Top="0" Width="86,92919" Height="18,89765" DataField="RASPER" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Frame.Typ="15" Text="[frxDBExpandTP_UR.&#34;RASPER&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="483,77984" Top="0" Width="75,5906" Height="18,89765" DataField="RASHOD" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Frame.Typ="15" Text="[frxDBExpandTP_UR.&#34;RASHOD&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="646,29963" Top="0" Width="60,47248" Height="18,89765" DataField="NAME_2" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Frame.Typ="15" Text="[frxDBExpandTP_UR.&#34;NAME_2&#34;]"/>
+      <TfrxMemoView Name="Memo11" Left="245,66945" Top="0" Width="86,92919" Height="18,89765" Frame.Typ="15" Text="[frxDBExpandTP_UR.&#34;NAME_1&#34;]"/>
+      <TfrxMemoView Name="Memo14" Left="332,59864" Top="0" Width="151,1812" Height="18,89765" DataField="ADR" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Frame.Typ="15" Text="[frxDBExpandTP_UR.&#34;ADR&#34;]"/>
+      <TfrxMemoView Name="Memo15" Left="26,45671" Top="0" Width="26,45671" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[Line#]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22,67718" Left="0" Top="321,26005" Width="793,7013"/>
+    <TfrxPageHeader Name="PageHeader1" Height="18,89765" Left="0" Top="162,51979" Width="793,7013">
+      <TfrxMemoView Name="Memo1" Left="52,91342" Top="0" Width="192,75603" Height="18,89765" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="8" ParentFont="False" Text="Наименование"/>
+      <TfrxMemoView Name="Memo7" Left="555,59091" Top="0" Width="86,92919" Height="18,89765" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="8" ParentFont="False" Text="Период"/>
+      <TfrxMemoView Name="Memo8" Left="480,00031" Top="0" Width="75,5906" Height="18,89765" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="8" ParentFont="False" Text="Расход"/>
+      <TfrxMemoView Name="Memo9" Left="642,5201" Top="0" Width="60,47248" Height="18,89765" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="8" ParentFont="False" Text="№ТП"/>
+      <TfrxMemoView Name="Memo12" Left="245,66945" Top="0" Width="86,92919" Height="18,89765" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="8" ParentFont="False" Text="ТУ"/>
+      <TfrxMemoView Name="Memo13" Left="332,59864" Top="0" Width="147,40167" Height="18,89765" DataSet="frxDBExpandTP_UR" DataSetName="frxDBExpandTP_UR" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="8" ParentFont="False" Text="Адрес"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>

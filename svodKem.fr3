@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" Version="3.16" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="40856,3544844907" ReportOptions.Description.Text="" ReportOptions.LastChange="42594,5010476505" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" PropData="044C65667403F00003546F7003200108446174617365747301010C2600000020446174615365743D226473316B656D2220446174615365744E616D653D226473316B656D2200010C2600000020446174615365743D226473326B656D2220446174615365744E616D653D226473326B656D2200010C2600000020446174615365743D226473346B656D2220446174615365744E616D653D226473346B656D2200010C2900000020446174615365743D22647335624B656D2220446174615365744E616D653D22647335625C6B656D2200010C2600000020446174615365743D226473356B656D2220446174615365744E616D653D226473356B656D2200010C2600000020446174615365743D226473366B656D2220446174615365744E616D653D226473366B656D2200010C2800000020446174615365743D22647337624B656D2220446174615365744E616D653D22647337624B656D2200010C2600000020446174615365743D226473376B656D2220446174615365744E616D653D226473376B656D2200010C2600000020446174615365743D226473386B656D2220446174615365744E616D653D226473386B656D2200010C2600000020446174615365743D226473396B656D2220446174615365744E616D653D226473396B656D2200010C3600000020446174615365743D22445352494D31303944444D4B454D2220446174615365744E616D653D22445352494D31303944444D4B454D2200010C3400000020446174615365743D22667278444244617461736574332220446174615365744E616D653D22667278444244617461736574332200010C3400000020446174615365743D22667278444244617461736574352220446174615365744E616D653D22667278444244617461736574352200010C3400000020446174615365743D22667278444244617461736574362220446174615365744E616D653D2266727844424461746173657436220000095661726961626C65730100055374796C650100">
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="56,69295" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo23" Left="0" Top="0" Width="442,20501" Height="45,35436" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="6" ParentFont="False" Text="Сводный отчет по количеству ЛС и счетчиков&#13;&#10;г. Кемерово"/>
+      <TfrxMemoView Name="Memo24" Left="623,62245" Top="3,77953" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="3" HAlign="haRight" ParentFont="False" Text="[Date]"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="26,45671" Left="0" Top="136,06308" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds1kem" DataSetName="ds1kem" RowCount="0">
+      <TfrxMemoView Name="Memo1" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" DataSet="ds1kem" DataSetName="ds1kem" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[ds1kem.&#34;COUNT(LS)&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="1.Всего ЛС:"/>
+    </TfrxMasterData>
+    <TfrxMasterData Name="MasterData2" Height="26,45671" Left="0" Top="185,19697" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds2kem" DataSetName="ds2kem" RowCount="0">
+      <TfrxMemoView Name="Memo2" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" DataField="COUNT(LS)" DataSet="ds2kem" DataSetName="ds2kem" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[ds2kem.&#34;COUNT(LS)&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="2.Открытых ЛС:"/>
+    </TfrxMasterData>
+    <TfrxMasterData Name="MasterData3" Height="0" Left="0" Top="283,46475" Visible="False" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds4kem" DataSetName="ds4kem" RowCount="0"/>
+    <TfrxFooter Name="Footer1" Height="26,45671" Left="0" Top="306,14193" Width="718,1107">
+      <TfrxMemoView Name="Memo3" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[COUNT(MasterData3,1)]"/>
+      <TfrxMemoView Name="Memo9" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="4.Кол-во всех ЛС со счетчиками:"/>
+    </TfrxFooter>
+    <TfrxFooter Name="Footer2" Height="26,45671" Left="0" Top="234,33086" Width="718,1107">
+      <TfrxMemoView Name="Memo5" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[Memo1.Value-Memo2.Value]"/>
+      <TfrxMemoView Name="Memo8" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="3.Закрытых ЛС:"/>
+    </TfrxFooter>
+    <TfrxMasterData Name="MasterData4" Height="0" Left="0" Top="355,27582" Visible="False" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds5kem" DataSetName="ds5kem" RowCount="0"/>
+    <TfrxFooter Name="Footer3" Height="26,45671" Left="0" Top="400,63018" Width="718,1107">
+      <TfrxMemoView Name="Memo4" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="5.Кол-во всех ЛС без счетчиков:"/>
+      <TfrxMemoView Name="Memo10" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[COUNT(MasterData4,1)+COUNT(MasterData8,1)]"/>
+    </TfrxFooter>
+    <TfrxMasterData Name="MasterData5" Height="0" Left="0" Top="449,76407" Visible="False" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds6kem" DataSetName="ds6kem" RowCount="0"/>
+    <TfrxFooter Name="Footer4" Height="26,45671" Left="0" Top="472,44125" Width="718,1107">
+      <TfrxMemoView Name="Memo11" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="6.Кол-во открытых ЛС со счетчиками:"/>
+      <TfrxMemoView Name="Memo12" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[COUNT(MasterData5,1)]"/>
+    </TfrxFooter>
+    <TfrxMasterData Name="MasterData6" Height="0" Left="0" Top="521,57514" Visible="False" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds7kem" DataSetName="ds7kem" RowCount="0"/>
+    <TfrxFooter Name="Footer5" Height="26,45671" Left="0" Top="566,9295" Width="718,1107">
+      <TfrxMemoView Name="Memo13" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="7.Кол-во открытых ЛС без счетчиков:"/>
+      <TfrxMemoView Name="Memo14" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[COUNT(MasterData6,1)+COUNT(MasterData9,1)]"/>
+    </TfrxFooter>
+    <TfrxMasterData Name="MasterData7" Height="0" Left="0" Top="616,06339" Visible="False" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds8kem" DataSetName="ds8kem" RowCount="0"/>
+    <TfrxFooter Name="Footer6" Height="26,45671" Left="0" Top="638,74057" Width="718,1107">
+      <TfrxMemoView Name="Memo17" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[SUM([ds8kem.&#34;COUNT(*)&#34;],MasterData7,1)+[frxDBDataset5.&#34;COUNT(*)&#34;]-[frxDBDataset6.&#34;COUNT(*)&#34;]]"/>
+      <TfrxMemoView Name="Memo16" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="8.Кол-во установленных счетчиков АСКУЭ при всех ЛС:"/>
+    </TfrxFooter>
+    <TfrxMasterData Name="MasterData8" Height="0" Left="0" Top="377,953" Visible="False" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds5bKem" DataSetName="ds5b\kem" RowCount="0"/>
+    <TfrxMasterData Name="MasterData9" Height="0" Left="0" Top="544,25232" Visible="False" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds7bKem" DataSetName="ds7bKem" RowCount="0"/>
+    <TfrxMasterData Name="MasterData10" Height="0" Left="0" Top="687,87446" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds9kem" DataSetName="ds9kem" RowCount="0"/>
+    <TfrxFooter Name="Footer7" Height="26,45671" Left="0" Top="710,55164" Width="718,1107">
+      <TfrxMemoView Name="Memo18" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[SUM([ds9kem.&#34;COUNT(*)&#34;],MasterData10,1)+[DSRIM109DDMKEM.&#34;COUNT(*)&#34;]-[frxDBDataset3.&#34;COUNT(*)&#34;]-1]"/>
+      <TfrxMemoView Name="Memo15" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="9.Кол-во установленных счетчиков АСКУЭ при открытых ЛС:"/>
+    </TfrxFooter>
+    <TfrxFooter Name="Footer9" Height="26,45671" Left="0" Top="782,36271" Width="718,1107">
+      <TfrxMemoView Name="Memo22" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[Memo3.Value-Memo17.Value]"/>
+      <TfrxMemoView Name="Memo21" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="10.Кол-во счетчиков другого типа (не АСКУЭ) при  всех ЛС: "/>
+    </TfrxFooter>
+    <TfrxMasterData Name="MasterData11" Height="0" Left="0" Top="759,68553" Visible="False" Width="718,1107" ColumnWidth="0" ColumnGap="0" RowCount="1"/>
+    <TfrxMasterData Name="MasterData12" Height="0" Left="0" Top="831,4966" Width="718,1107" ColumnWidth="0" ColumnGap="0" RowCount="1"/>
+    <TfrxFooter Name="Footer8" Height="26,45671" Left="0" Top="854,17378" Width="718,1107">
+      <TfrxMemoView Name="Memo19" Left="0" Top="0" Width="578,26809" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="11.Кол-во счетчиков другого типа (не АСКУЭ) при открытых ЛС: "/>
+      <TfrxMemoView Name="Memo20" Left="578,26809" Top="0" Width="139,84261" Height="26,45671" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" Text="[Memo12.Value-Memo18.Value]"/>
+    </TfrxFooter>
+    <TfrxReportSummary Name="ReportSummary1" Height="22,67718" Left="0" Top="941,10297" Width="718,1107"/>
+  </TfrxReportPage>
+</TfrxReport>
